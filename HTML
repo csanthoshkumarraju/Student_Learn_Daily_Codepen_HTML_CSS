@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A brief description of your page">
+    <title>StudentLearnDaily</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Quiche+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <script defer src="script.js"></script> 
+</head>
+<body>
+<section class="Entire-page">
+  
+<!--   *****************************************************************    -->
+<!--                        Nav Bar section Start                           -->
+<!--   *****************************************************************    -->
+  
+    <nav class="student-nav-bar">
+        <div class="student-icon-logo">
+            <h1 class="SLD-Menu"><i class="fa-solid fa-bars fa-beat"></i>
+              <ul class="student-nav-links-dropdown-SLD-Menu">
+                    <li class="student-nav-links-li"><a href="#">Homework</a></li>
+                    <li class="student-nav-links-li"><a href="#">Assignments</a></li>
+                    <li class="student-nav-links-li"><a href="#">Daily</a></li>
+                    <li class="student-nav-links-li"><a href="#">Monthly</a></li>
+                    <li class="student-nav-links-li"><a href="#">Yearly</a></li>
+                    <li class="student-nav-links-li"><a href="#">Goals</a></li>
+                    <li class="student-nav-links-li"><a href="#">Notes</a></li>
+                    <li class="student-nav-links-li"><a href="#">Collaborate</a></li>
+                    <li class="student-nav-links-li"><a href="#">Games</a></li>
+              </ul>
+              </h1>
+            <p><i class="fa-solid fa-graduation-cap study-logo"></i></p>
+            
+          
+            <h1 class="student-learn-daily-logo">Student Learn Daily</h1>
+        </div>
+        <ul class="student-nav-links">
+            <li class="student-nav-links-li"><a href="#">Homework</a></li>
+            <li class="student-nav-links-li"><a href="#">Assignments</a></li>
+            <li class="student-nav-links-li"><a href="#">Daily</a></li>
+            <li class="student-nav-links-li"><a href="#">Monthly</a></li>
+            <li class="student-nav-links-li"><a href="#">Yearly</a></li>
+            <li class="student-nav-links-li"><a href="#">Goals</a></li>
+            <li class="student-nav-links-li"><a href="#">Notes</a></li>
+            <li class="student-nav-links-li"><a href="#">Collaborate</a></li>
+            <li class="student-nav-links-li"><a href="#">Games</a></li>
+        </ul>
+        <div class="dropdown-container">
+        <p class="dropdown-trigger">Menu</p>
+        <ul class="student-nav-links-dropdown">
+            <li class="student-nav-links-li"><a href="#">Homework</a></li>
+            <li class="student-nav-links-li"><a href="#">Assignments</a></li>
+            <li class="student-nav-links-li"><a href="#">Daily</a></li>
+            <li class="student-nav-links-li"><a href="#">Monthly</a></li>
+            <li class="student-nav-links-li"><a href="#">Yearly</a></li>
+            <li class="student-nav-links-li"><a href="#">Goals</a></li>
+            <li class="student-nav-links-li"><a href="#">Notes</a></li>
+            <li class="student-nav-links-li"><a href="#">Collaborate</a></li>
+            <li class="student-nav-links-li"><a href="#">Games</a></li>
+        </ul>
+        </div>
+      
+      
+        <div class="student-reg-log-icon">
+              <h6><a href="#">Register</a></h6>
+              <h6><a href="#">Log in</a></h6>
+              <h5> Welcome <b><i>Student</i></b></h5>
+              <p><i class="fa-solid fa-user-graduate student-profile"></i></p>
+        </div>
+    </nav>
+      <p class="test">Helo Student</p>
+<!--   *****************************************************************    -->
+<!--                        Nav Bar section End                             -->
+<!--   *****************************************************************    -->
+    
+
+  
+  
+<!--   *****************************************************************    -->
+<!--                        Footer section Start                           -->
+<!--   *****************************************************************    -->
+  
+<footer class="student-learn-daily-footer">
+    
+  
+    <div class="footer-content">
+        <div class="contact">
+            <h6><u>Contact Us</u></h6>
+            <div class="con-icons">
+                <i class="fa-solid fa-mobile-button"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+        </div>
+        <div class="support">
+            <h6><u>Support</u></h6>
+            <p>FAQ</p>
+            <p>Help Center</p>
+        </div>
+        <div class="social-media">
+            <h6><u>Social Media</u></h6>
+            <div class="sm-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+        </div>
+    </div>
+    
+</footer>
+  <p class="copyrights">&copy; 2024 - <span id="current-year"></span> Student Learn Daily. All rights reserved. Made with love <i class="fa-solid fa-heart"></i> Chiluru Santhosh Kumar Raju.</p>
+
+
+
+
+
+  
+<!--   *****************************************************************    -->
+<!--                      Footer section End                                -->
+<!--   *****************************************************************    -->
+  
+</section>
+<script>
+  var currentYear = new Date().getFullYear();
+  document.getElementById('current-year').textContent = currentYear;
+</script>
+</body>
+</html>

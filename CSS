@@ -389,7 +389,7 @@ body {
 
 .Student-Homework-section {
     margin-top: 3.8rem;
-    background-color: #B8B8FF;
+    background-color: #CCCCFF;
     padding: 1.5rem;
 }
 
@@ -412,7 +412,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
-    background-color: #A69DFF;
+    background-color: #C0C0FF;
 }
 
 .form-row {
@@ -459,7 +459,7 @@ body {
     border-radius: 0.3125rem;
     padding: 2rem;
     margin: 3rem auto;
-    background-color: #A69DFF;
+    background-color: #C0C0FF;
 }
 
 .list-hw-table {
@@ -475,14 +475,14 @@ body {
 }
 
 .list-hw-table th {
-    background-color: #9381FF;
+    background-color: #AAA1FF;
 }
 
 .In-Progress-btn {
     width: auto;
     height: auto;
     padding: 0.2rem;
-    background-color: #3F00FF;
+    background-color: #FF5F15;
     color: #fff;
     border: 0.1rem solid grey;
     border-radius: 0.1875rem;
@@ -491,7 +491,7 @@ body {
 }
 
 .In-Progress-btn:hover {
-    color: #6F00FF;
+    color: #FF5F15;
     background-color: white;
 }
 
@@ -504,11 +504,11 @@ body {
     max-width: 40rem;
     height: auto;
     margin: 0 auto;
-    border: 0.063rem solid #1F51FF;
+    border: 0.063rem solid #FF4500;
     border-radius: 0.3125rem;
     padding: 2rem;
     margin: 3rem auto;
-    background-color: #A69DFF;
+    background-color: #C0C0FF;
 }
 
 .home-work-in-progress-tb {
@@ -518,20 +518,20 @@ body {
 
 .home-work-in-progress-tb th, 
 .home-work-in-progress-tb td {
-    border: 0.063rem solid #1F51FF;
+    border: 0.063rem solid #FF4500;
     padding: 0.3rem;
     box-sizing: border-box;
 }
 
 .home-work-in-progress-tb th {
-    background-color: #9381FF;
+    background-color: #AAA1FF;
 }
 
 .Complete-btn {
     width: auto;
     height: auto;
     padding: 0.2rem;
-    background-color: #3F00FF;
+    background-color: #4CBB17;
     color: #fff;
     border: 0.1rem solid grey;
     border-radius: 0.1875rem;
@@ -540,7 +540,7 @@ body {
 }
 
 .Complete-btn:hover {
-    color: #6F00FF;
+    color: #4CBB17;
     background-color: white;
 }
 
@@ -572,11 +572,11 @@ body {
     max-width: 20rem;
     height: auto;
     margin: 0 auto;
-    border: 0.063rem solid #1F51FF;
+    border: 0.063rem solid #1DB954;
     border-radius: 0.3125rem;
     padding: 2rem;
     margin: 3rem auto;
-    background-color: #A69DFF;
+    background-color: #C0C0FF;
 }
 
 .particular-day-home-work-tb {
@@ -584,9 +584,11 @@ body {
     border-collapse: collapse;
 }
 
+
+
 .particular-day-home-work-tb th, 
 .particular-day-home-work-tb td {
-    border: 0.063rem solid #1F51FF;
+    border: 0.063rem solid #1DB954;
     padding: 0.3rem;
     box-sizing: border-box;
     max-width: 8rem; /* Ensure cells do not overflow */
@@ -595,7 +597,7 @@ body {
 }
 
 .particular-day-home-work-tb th {
-    background-color: #9381FF;
+    background-color: #AAA1FF;
 }
 
 .ACHH {
@@ -607,11 +609,11 @@ body {
     max-width: 25rem;
     height: auto;
     margin: 0 auto;
-    border: 0.063rem solid #1F51FF;
+    border: 0.063rem solid #1DB954;
     border-radius: 0.3125rem;
     padding: 2rem;
     margin: 3rem auto;
-    background-color: #A69DFF;
+    background-color: #C0C0FF;
 }
 
 .ACH-tb {
@@ -621,16 +623,16 @@ body {
 
 .ACH-tb th, 
 .ACH-tb td {
-    border: 0.063rem solid #1F51FF;
+    border: 0.063rem solid #1DB954;
     padding: 0.3rem;
     box-sizing: border-box;
-    max-width: 8rem; /* Ensure cells do not overflow */
+    max-width: 8rem; 
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .ACH-tb th {
-    background-color: #9381FF;
+    background-color: #AAA1FF;
 }
 
 
@@ -787,12 +789,12 @@ body {
 
 
 /* ************************************************************************* */
-/*                          Assignment Section Start                            */
+/*                          Assignment Section Start                         */
 /* ************************************************************************* */
 
 .Student-Assignment-section {
 /*        margin-top: 3.8rem; */
-       background-color: #B8B8FF;
+       background-color: #CCCCFF;
        padding: 1.5rem;
   
 }
@@ -810,7 +812,7 @@ body {
     border-radius: 0.3125rem;
     padding: 2rem;
     margin: 3rem auto;
-    background-color: #A69DFF;
+    background-color: #C0C0FF;
     text-align: center;
 }
 
@@ -850,7 +852,7 @@ body {
     border-radius: 0.3125rem;
     padding: 2rem;
     margin: 3rem auto;
-    background-color: #A69DFF;
+    background-color: #C0C0FF;
     text-align: center;
 }
 
@@ -869,7 +871,7 @@ body {
     width: auto;
     height: auto;
     padding: 0.5rem 1rem;
-    background-color: #3F00FF;
+    background-color: #FF5F15;
     color: #fff;
     border: 0.1rem solid grey;
     border-radius: 0.1875rem;
@@ -879,7 +881,7 @@ body {
 }
 
 .assignment-to-do-in-progress-btn:hover {
-    color: #6F00FF;
+    color: #FF5F15;
     background-color: white;
 }
 
@@ -888,16 +890,16 @@ body {
     width: 100%;
     max-width: 40rem;
     height: auto;
-    border: 0.063rem solid #1F51FF;
+    border: 0.063rem solid #FF4500;
     border-radius: 0.3125rem;
     padding: 2rem;
     margin: 3rem auto;
-    background-color: #A69DFF;
+    background-color: #C0C0FF;
     text-align: center;
 }
 
 .assignment-in-progress-list-p {
-    border: 0.063rem solid #1F51FF;
+    border: 0.063rem solid #FF4500;
     border-radius: 0.3125rem;
     width:30rem;
     height:auto;
@@ -911,7 +913,7 @@ body {
     width: auto;
     height: auto;
     padding: 0.5rem 1rem;
-    background-color: #3F00FF;
+    background-color: #4CBB17;
     color: #fff;
     border: 0.1rem solid grey;
     border-radius: 0.1875rem;
@@ -921,7 +923,7 @@ body {
 }
 
 .assignment-complete-btn:hover {
-    color: #6F00FF;
+    color: #4CBB17;
     background-color: white;
 }
 
@@ -929,17 +931,17 @@ body {
    width: 100%;
     max-width: 40rem;
     height: auto;
-    border: 0.063rem solid #1F51FF;
+    border: 0.063rem solid #1DB954;
     border-radius: 0.3125rem;
     padding: 2rem;
     margin: 3rem auto;
-    background-color: #A69DFF;
+    background-color: #C0C0FF;
     text-align: center;
   
 }
 
 .assignment-completed-list-p {
-    border: 0.063rem solid #1F51FF;
+    border: 0.063rem solid #1DB954;
     border-radius: 0.3125rem;
     width:30rem;
     height:auto;
@@ -966,7 +968,7 @@ body {
                 border-radius: 0.3125rem;
                 padding: 2rem;
                 margin: 3rem auto;
-                background-color: #A69DFF;
+                background-color: #C0C0FF;
                 text-align: center;
             }
 
@@ -1006,7 +1008,7 @@ body {
                 border-radius: 0.3125rem;
                 padding: 2rem;
                 margin: 3rem auto;
-                background-color: #A69DFF;
+                background-color: #C0C0FF;
                 text-align: center;
             }
 
@@ -1025,7 +1027,7 @@ body {
                 width: auto;
                 height: auto;
                 padding: 0.5rem 1rem;
-                background-color: #3F00FF;
+                background-color: #FF5F15;
                 color: #fff;
                 border: 0.1rem solid grey;
                 border-radius: 0.1875rem;
@@ -1036,7 +1038,7 @@ body {
             }
 
             .assignment-to-do-in-progress-btn:hover {
-                color: #6F00FF;
+                color: #FF5F15;
                 background-color: white;
             }
 
@@ -1045,16 +1047,16 @@ body {
                 width: 100%;
                 max-width: 30rem;
                 height: auto;
-                border: 0.063rem solid #1F51FF;
+                border: 0.063rem solid #FF4500;
                 border-radius: 0.3125rem;
                 padding: 2rem;
                 margin: 3rem auto;
-                background-color: #A69DFF;
+                background-color: #C0C0FF;
                 text-align: center;
             }
 
             .assignment-in-progress-list-p {
-                border: 0.063rem solid #1F51FF;
+                border: 0.063rem solid #FF4500;
                 border-radius: 0.3125rem;
                 width:25rem;
                 height:auto;
@@ -1068,7 +1070,7 @@ body {
                 width: auto;
                 height: auto;
                 padding: 0.5rem 1rem;
-                background-color: #3F00FF;
+                background-color: #4CBB17;
                 color: #fff;
                 border: 0.1rem solid grey;
                 border-radius: 0.1875rem;
@@ -1079,7 +1081,7 @@ body {
             }
 
             .assignment-complete-btn:hover {
-                color: #6F00FF;
+                color: #4CBB17;
                 background-color: white;
             }
 
@@ -1087,17 +1089,17 @@ body {
                width: 100%;
                 max-width: 30rem;
                 height: auto;
-                border: 0.063rem solid #1F51FF;
+                border: 0.063rem solid #1DB954;
                 border-radius: 0.3125rem;
                 padding: 2rem;
                 margin: 3rem auto;
-                background-color: #A69DFF;
+                background-color: #C0C0FF;
                 text-align: center;
 
             }
 
             .assignment-completed-list-p {
-                border: 0.063rem solid #1F51FF;
+                border: 0.063rem solid #1DB954;
                 border-radius: 0.3125rem;
                 width:25rem;
                 height:auto;
@@ -1120,7 +1122,7 @@ body {
                 border-radius: 0.3125rem;
                 padding: 2rem;
                 margin: 3rem auto;
-                background-color: #A69DFF;
+                background-color: #C0C0FF;
                 text-align: center;
             }
 
@@ -1160,7 +1162,7 @@ body {
                 border-radius: 0.3125rem;
                 padding: 2rem;
                 margin: 3rem auto;
-                background-color: #A69DFF;
+                background-color: #C0C0FF;
                 text-align: center;
             }
 
@@ -1179,7 +1181,7 @@ body {
                 width: auto;
                 height: auto;
                 padding: 0.5rem 1rem;
-                background-color: #3F00FF;
+                background-color: #FF5F15;
                 color: #fff;
                 border: 0.1rem solid grey;
                 border-radius: 0.1875rem;
@@ -1190,7 +1192,7 @@ body {
             }
 
             .assignment-to-do-in-progress-btn:hover {
-                color: #6F00FF;
+                color: #FF5F15;
                 background-color: white;
             }
 
@@ -1199,16 +1201,16 @@ body {
                 width: 80%;
                 max-width: 25rem;
                 height: auto;
-                border: 0.063rem solid #1F51FF;
+                border: 0.063rem solid #FF4500;
                 border-radius: 0.3125rem;
                 padding: 2rem;
                 margin: 3rem auto;
-                background-color: #A69DFF;
+                background-color: #C0C0FF;
                 text-align: center;
             }
 
             .assignment-in-progress-list-p {
-                border: 0.063rem solid #1F51FF;
+                border: 0.063rem solid #FF4500;
                 border-radius: 0.3125rem;
                 width:20rem;
                 height:auto;
@@ -1222,7 +1224,7 @@ body {
                 width: auto;
                 height: auto;
                 padding: 0.5rem 1rem;
-                background-color: #3F00FF;
+                background-color: #4CBB17;
                 color: #fff;
                 border: 0.1rem solid grey;
                 border-radius: 0.1875rem;
@@ -1233,7 +1235,7 @@ body {
             }
 
             .assignment-complete-btn:hover {
-                color: #6F00FF;
+                color: #4CBB17;
                 background-color: white;
             }
 
@@ -1241,17 +1243,17 @@ body {
                width: 80%;
                 max-width: 25rem;
                 height: auto;
-                border: 0.063rem solid #1F51FF;
+                border: 0.063rem solid #1DB954;
                 border-radius: 0.3125rem;
                 padding: 2rem;
                 margin: 3rem auto;
-                background-color: #A69DFF;
+                background-color: #C0C0FF;
                 text-align: center;
 
             }
 
             .assignment-completed-list-p {
-                border: 0.063rem solid #1F51FF;
+                border: 0.063rem solid #1DB954;
                 border-radius: 0.3125rem;
                 width:20rem;
                 height:auto;
@@ -1273,7 +1275,7 @@ body {
                 border-radius: 0.3125rem;
                 padding: 2rem;
                 margin: 3rem auto;
-                background-color: #A69DFF;
+                background-color: #C0C0FF;
                 text-align: center;
             }
 
@@ -1314,7 +1316,7 @@ body {
                 border-radius: 0.3125rem;
                 padding: 2rem;
                 margin: 3rem auto;
-                background-color: #A69DFF;
+                background-color: #C0C0FF;
                 text-align: center;
             }
 
@@ -1333,7 +1335,7 @@ body {
                 width: auto;
                 height: auto;
                 padding: 0.5rem 1rem;
-                background-color: #3F00FF;
+                background-color: #FF5F15;
                 color: #fff;
                 border: 0.1rem solid grey;
                 border-radius: 0.1875rem;
@@ -1344,7 +1346,7 @@ body {
             }
 
             .assignment-to-do-in-progress-btn:hover {
-                color: #6F00FF;
+                color: #FF5F15;
                 background-color: white;
             }
 
@@ -1353,16 +1355,16 @@ body {
                 width: 70%;
                 max-width: 20rem;
                 height: auto;
-                border: 0.063rem solid #1F51FF;
+                border: 0.063rem solid #FF4500;
                 border-radius: 0.3125rem;
                 padding: 2rem;
                 margin: 3rem auto;
-                background-color: #A69DFF;
+                background-color: #C0C0FF;
                 text-align: center;
             }
 
             .assignment-in-progress-list-p {
-                border: 0.063rem solid #1F51FF;
+                border: 0.063rem solid #FF4500;
                 border-radius: 0.3125rem;
                 width:12rem;
                 height:auto;
@@ -1376,7 +1378,7 @@ body {
                 width: auto;
                 height: auto;
                 padding: 0.5rem 1rem;
-                background-color: #3F00FF;
+                background-color: #4CBB17;
                 color: #fff;
                 border: 0.1rem solid grey;
                 border-radius: 0.1875rem;
@@ -1387,7 +1389,7 @@ body {
             }
 
             .assignment-complete-btn:hover {
-                color: #6F00FF;
+                color: #4CBB17;
                 background-color: white;
             }
 
@@ -1395,17 +1397,17 @@ body {
                width: 70%;
                 max-width: 20rem;
                 height: auto;
-                border: 0.063rem solid #1F51FF;
+                border: 0.063rem solid #1DB954;
                 border-radius: 0.3125rem;
                 padding: 2rem;
                 margin: 3rem auto;
-                background-color: #A69DFF;
+                background-color: #C0C0FF;
                 text-align: center;
 
             }
 
             .assignment-completed-list-p {
-                border: 0.063rem solid #1F51FF;
+                border: 0.063rem solid #1DB954;
                 border-radius: 0.3125rem;
                 width:12rem;
                 height:auto;
@@ -1420,12 +1422,636 @@ body {
 
 
 
+/* ************************************************************************* */
+/*                         Assignment Section End                            */
+/* ************************************************************************* */
+
+
+/* ************************************************************************* */
+/*                          Daily plans Section Start                        */
+/* ************************************************************************* */
+
+
+.Student-daily-plan-section {
+    background-color: #CCCCFF;
+    padding: 1.5rem;
+}
+
+.student-daily-heading {
+     text-align:center;
+     padding:3.3rem;
+}
+
+.add-daily-plan-form {
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
+    border: 0.063rem solid #1F51FF;
+    border-radius: 0.3125rem;
+    padding: 2rem;
+    margin: 3rem auto;
+    background-color: #C0C0FF;
+    text-align: center;
+}
+
+.Add-daily-plan-input-box {
+    width: 25rem;
+    height: 3rem;
+    margin: 1rem;
+}
+
+.add-daily-plan-button {
+    width: auto;
+    height: auto;
+    padding: 0.5rem 1rem;
+    background-color: #3F00FF;
+    color: #fff;
+    border: 0.1rem solid grey;
+    border-radius: 0.1875rem;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.add-daily-plan-button:hover {
+    color: #6F00FF;
+    background-color: white;
+}
+
+.daily-plans-to-do-heading {
+     text-align:center;
+}
+
+.daily-plans-to-do {
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
+    border: 0.063rem solid #1F51FF;
+    border-radius: 0.3125rem;
+    padding: 2rem;
+    margin: 3rem auto;
+    background-color: #C0C0FF;
+    text-align: center;
+}
+
+.daily-plans-to-do-list-p {
+    border: 0.063rem solid #1F51FF;
+    border-radius: 0.3125rem;
+    width:30rem;
+    height:auto;
+    padding:1rem;
+    margin-left:4rem;
+    text-align:center;
+    text-align: justify;
+}
+
+.daily-plans-to-do-in-progress-btn {
+    width: auto;
+    height: auto;
+    padding: 0.5rem 1rem;
+    background-color: #FF5F15;
+    color: #fff;
+    border: 0.1rem solid grey;
+    border-radius: 0.1875rem;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.daily-plans-to-do-in-progress-btn:hover {
+    color: #FF5F15;
+    background-color: white;
+}
+
+
+.daily-plan-in-progress {
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
+    border: 0.063rem solid #FF4500;
+    border-radius: 0.3125rem;
+    padding: 2rem;
+    margin: 3rem auto;
+    background-color: #C0C0FF;
+    text-align: center;
+}
+
+.daily-plan-in-progress-list-p {
+    border: 0.063rem solid #FF4500;
+    border-radius: 0.3125rem;
+    width:30rem;
+    height:auto;
+    padding:1rem;
+    margin-left:4rem;
+    text-align:center;
+    text-align: justify;
+}
+
+.daily-plan-complete-btn {
+    width: auto;
+    height: auto;
+    padding: 0.5rem 1rem;
+    background-color: #4CBB17;
+    color: #fff;
+    border: 0.1rem solid grey;
+    border-radius: 0.1875rem;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.daily-plan-complete-btn:hover {
+    color: #4CBB17;
+    background-color: white;
+}
+
+.daily-plans-all-completed {
+   width: 100%;
+    max-width: 40rem;
+    height: auto;
+    border: 0.063rem solid #1DB954;
+    border-radius: 0.3125rem;
+    padding: 2rem;
+    margin: 3rem auto;
+    background-color: #C0C0FF;
+    text-align: center;
+  
+}
+
+.daily-plans-completed-list-p {
+    border: 0.063rem solid #1DB954;
+    border-radius: 0.3125rem;
+    width:30rem;
+    height:auto;
+    padding:1rem;
+    margin-left:4rem;
+    text-align:center;
+    text-align: justify;
+}
+
+
+/* @media only screen and (min-width: 1141px) and (max-width: 1279px) {
+        
+} */
+/*  
+@media only screen and (min-width: 800px) and (max-width: 1140px) {
+} */
+
+
+@media only screen and (min-width: 640px) and (max-width: 799px) {
+    .add-daily-plan-form {
+        width: 100%;
+        max-width: 30rem;
+        height: auto;
+        border: 0.063rem solid #1F51FF;
+        border-radius: 0.3125rem;
+        padding: 2rem;
+        margin: 3rem auto;
+        background-color: #C0C0FF;
+        text-align: center;
+    }
+
+    .Add-daily-plan-input-box {
+        width: 25rem;
+        height: 10rem;
+        margin: 2rem;
+    }
+
+    .add-daily-plan-button {
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+        background-color: #3F00FF;
+        color: #fff;
+        border: 0.1rem solid grey;
+        border-radius: 0.1875rem;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .add-daily-plan-button:hover {
+        color: #6F00FF;
+        background-color: white;
+    }
+
+    .daily-plans-to-do-heading {
+        text-align:center;
+    }
+
+    .daily-plans-to-do {
+        width: 100%;
+        max-width: 30rem;
+        height: auto;
+        border: 0.063rem solid #1F51FF;
+        border-radius: 0.3125rem;
+        padding: 2rem;
+        margin: 3rem auto;
+        background-color: #C0C0FF;
+        text-align: center;
+    }
+
+    .daily-plans-to-do-list-p {
+        border: 0.063rem solid #1F51FF;
+        border-radius: 0.3125rem;
+        width: 25rem;
+        height:auto;
+        padding:1rem;
+        margin:auto;
+        text-align:center;
+        text-align: justify;
+    }
+
+    .daily-plans-to-do-in-progress-btn {
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+        background-color: #FF5F15;
+        color: #fff;
+        border: 0.1rem solid grey;
+        border-radius: 0.1875rem;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        margin:1rem;
+    }
+
+    .daily-plans-to-do-in-progress-btn:hover {
+        color: #FF5F15;
+        background-color: white;
+    }
+
+    .daily-plan-in-progress {
+        width: 100%;
+        max-width: 30rem;
+        height: auto;
+        border: 0.063rem solid #FF4500;
+        border-radius: 0.3125rem;
+        padding: 2rem;
+        margin: 3rem auto;
+        background-color: #C0C0FF;
+        text-align: center;
+    }
+
+    .daily-plan-in-progress-list-p {
+        border: 0.063rem solid #FF4500;
+        border-radius: 0.3125rem;
+        width: 25rem;
+        height:auto;
+        padding:1rem;
+        margin:auto;
+        text-align:center;
+        text-align: justify;
+    }
+
+    .daily-plan-complete-btn {
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+        background-color: #4CBB17;
+        color: #fff;
+        border: 0.1rem solid grey;
+        border-radius: 0.1875rem;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        margin:1rem;
+    }
+
+    .daily-plan-complete-btn:hover {
+        color: #4CBB17;
+        background-color: white;
+    }
+
+    .daily-plans-all-completed {
+        width: 100%;
+        max-width: 30rem;
+        height: auto;
+        border: 0.063rem solid #1DB954;
+        border-radius: 0.3125rem;
+        padding: 2rem;
+        margin: 3rem auto;
+        background-color: #C0C0FF;
+        text-align: center;
+    }
+
+    .daily-plans-completed-list-p {
+        border: 0.063rem solid #1DB954;
+        border-radius: 0.3125rem;
+        width: 25rem;
+        height:auto;
+        padding:1rem;
+        margin:1.5rem auto;
+        text-align:center;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 639px) {
+    .add-daily-plan-form {
+        width: 80%;
+        max-width: 25rem;
+        height: auto;
+        border: 0.063rem solid #1F51FF;
+        border-radius: 0.3125rem;
+        padding: 2rem;
+        margin: 3rem auto;
+        background-color: #C0C0FF;
+        text-align: center;
+    }
+
+    .Add-daily-plan-input-box {
+        width: 20rem;
+        height: 10rem;
+        margin: 2rem;
+    }
+
+    .add-daily-plan-button {
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+        background-color: #3F00FF;
+        color: #fff;
+        border: 0.1rem solid grey;
+        border-radius: 0.1875rem;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .add-daily-plan-button:hover {
+        color: #6F00FF;
+        background-color: white;
+    }
+
+    .daily-plans-to-do-heading {
+        text-align:center;
+    }
+
+    .daily-plans-to-do {
+        width: 80%;
+        max-width: 25rem;
+        height: auto;
+        border: 0.063rem solid #1F51FF;
+        border-radius: 0.3125rem;
+        padding: 2rem;
+        margin: 3rem auto;
+        background-color: #C0C0FF;
+        text-align: center;
+    }
+
+    .daily-plans-to-do-list-p {
+        border: 0.063rem solid #1F51FF;
+        border-radius: 0.3125rem;
+        width: 20rem;
+        height:auto;
+        padding:1rem;
+        margin:auto;
+        text-align:center;
+        text-align: justify;
+    }
+
+    .daily-plans-to-do-in-progress-btn {
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+        background-color: #FF5F15;
+        color: #fff;
+        border: 0.1rem solid grey;
+        border-radius: 0.1875rem;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        margin:1rem;
+    }
+
+    .daily-plans-to-do-in-progress-btn:hover {
+        color: #FF5F15;
+        background-color: white;
+    }
+
+    .daily-plan-in-progress {
+        width: 80%;
+        max-width: 25rem;
+        height: auto;
+        border: 0.063rem solid #FF4500;
+        border-radius: 0.3125rem;
+        padding: 2rem;
+        margin: 3rem auto;
+        background-color: #C0C0FF;
+        text-align: center;
+    }
+
+    .daily-plan-in-progress-list-p {
+        border: 0.063rem solid #FF4500;
+        border-radius: 0.3125rem;
+        width: 20rem;
+        height:auto;
+        padding:1rem;
+        margin:auto;
+        text-align:center;
+        text-align: justify;
+    }
+
+    .daily-plan-complete-btn {
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+        background-color: #4CBB17;
+        color: #fff;
+        border: 0.1rem solid grey;
+        border-radius: 0.1875rem;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        margin:1rem;
+    }
+
+    .daily-plan-complete-btn:hover {
+        color: #4CBB17;
+        background-color: white;
+    }
+
+    .daily-plans-all-completed {
+        width: 80%;
+        max-width: 25rem;
+        height: auto;
+        border: 0.063rem solid #1DB954;
+        border-radius: 0.3125rem;
+        padding: 2rem;
+        margin: 3rem auto;
+        background-color: #C0C0FF;
+        text-align: center;
+    }
+
+    .daily-plans-completed-list-p {
+        border: 0.063rem solid #1DB954;
+        border-radius: 0.3125rem;
+        width: 20rem;
+        height:auto;
+        padding:1rem;
+        margin:1.5rem auto;
+        text-align:center;
+        text-align: justify;
+    }
+}
+
+
+@media (max-width: 480px) { 
+    .add-daily-plan-form {
+        width: 70%;
+        max-width: 20rem;
+        height: auto;
+        border: 0.063rem solid #1F51FF;
+        border-radius: 0.3125rem;
+        padding: 2rem;
+        margin: 3rem auto;
+        background-color: #C0C0FF;
+        text-align: center;
+    }
+
+    .Add-daily-plan-input-box {
+        width: 65%;
+        max-width: 20rem;
+        height: 10rem;
+        margin: 2rem;
+    }
+
+    .add-daily-plan-button {
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+        background-color: #3F00FF;
+        color: #fff;
+        border: 0.1rem solid grey;
+        border-radius: 0.1875rem;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .add-daily-plan-button:hover {
+        color: #6F00FF;
+        background-color: white;
+    }
+
+    .daily-plans-to-do-heading {
+        text-align: center;
+    }
+
+    .daily-plans-to-do {
+        width: 70%;
+        max-width: 20rem;
+        height: auto;
+        border: 0.063rem solid #1F51FF;
+        border-radius: 0.3125rem;
+        padding: 2rem;
+        margin: 3rem auto;
+        background-color: #C0C0FF;
+        text-align: center;
+    }
+
+    .daily-plans-to-do-list-p {
+        border: 0.063rem solid #1F51FF;
+        border-radius: 0.3125rem;
+        width: 12rem;
+        height: auto;
+        padding: 1rem;
+        margin: auto;
+        text-align: center;
+        text-align: justify;
+    }
+
+    .daily-plans-to-do-in-progress-btn {
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+        background-color: #FF5F15;
+        color: #fff;
+        border: 0.1rem solid grey;
+        border-radius: 0.1875rem;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        margin: 1rem;
+    }
+
+    .daily-plans-to-do-in-progress-btn:hover {
+        color: #FF5F15;
+        background-color: white;
+    }
+
+    .daily-plan-in-progress {
+        width: 70%;
+        max-width: 20rem;
+        height: auto;
+        border: 0.063rem solid #FF4500;
+        border-radius: 0.3125rem;
+        padding: 2rem;
+        margin: 3rem auto;
+        background-color: #C0C0FF;
+        text-align: center;
+    }
+
+    .daily-plan-in-progress-list-p {
+        border: 0.063rem solid #FF4500;
+        border-radius: 0.3125rem;
+        width: 12rem;
+        height: auto;
+        padding: 1rem;
+        margin: auto;
+        text-align: center;
+        text-align: justify;
+    }
+
+    .daily-plan-complete-btn {
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+        background-color: #4CBB17;
+        color: #fff;
+        border: 0.1rem solid grey;
+        border-radius: 0.1875rem;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        margin: 1rem;
+    }
+
+    .daily-plan-complete-btn:hover {
+        color: #4CBB17;
+        background-color: white;
+    }
+
+    .daily-plans-all-completed {
+        width: 70%;
+        max-width: 20rem;
+        height: auto;
+        border: 0.063rem solid #1DB954;
+        border-radius: 0.3125rem;
+        padding: 2rem;
+        margin: 3rem auto;
+        background-color: #C0C0FF;
+        text-align: center;
+    }
+
+    .daily-plans-completed-list-p {
+        border: 0.063rem solid #1DB954;
+        border-radius: 0.3125rem;
+        width: 12rem;
+        height: auto;
+        padding: 1rem;
+        margin: 1.5rem auto;
+        text-align: center;
+        text-align: justify;
+    }
+}
 
 
 
 
 /* ************************************************************************* */
-/*                         Assignment Section End                            */
+/*                          Daily plans Section End                          */
 /* ************************************************************************* */
 
 

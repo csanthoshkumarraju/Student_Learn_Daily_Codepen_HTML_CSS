@@ -1000,7 +1000,78 @@
 <!--                        Number Guessing section End                     -->
 <!--   *****************************************************************    -->
 
+<!--   *****************************************************************    -->
+<!--                        Word Guessing section start                   -->
+<!--   *****************************************************************    -->
 
+<section class="word-guessing-game-section">
+    <h2 class="word-guessing-game-heading">Guess the Word</h2>
+    <div class="student-word-guessing-game">
+        <h3 class="word-heading">Hello, Abc! Guess the Word from below</h3>
+        <p class="word-list"><b>[Apple, Banana, Cake, Door, Elephant, Flower, Guitar, House, Ice Cream, Kite]</b></p>
+
+        <form>
+            <label for="word-game" class="word-guess-label"><b>Word:</b></label>
+            <input type="text" id="word-game" placeholder="Enter your guess" class="word-guess-input" required>
+            <input type="submit" class="submit-word" value="Submit">
+        </form>
+    </div>
+</section>
+
+
+
+
+<!--   *****************************************************************    -->
+<!--                        Word Guessing section End                     -->
+<!--   *****************************************************************    -->
+
+
+<!--   *****************************************************************    -->
+<!--                        Puzzle Word Guessing section start                     -->
+<!--   *****************************************************************    -->
+
+<section class="puzzle-word-guessing-game-section">
+    <h2 class="puzzle-word-guessing-game-heading">Guess the Puzzle Word</h2>
+    <div class="student-puzzle-word-guessing-game">
+        <h3 class="puzzle-word-heading">Hello, Abc! Guess the word from the puzzle below:</h3>
+        <p class="puzzle-word-display"><b>[A_p_e]</b></p>
+
+        <form>
+            <label for="puzzle-word-game" class="puzzle-word-guess-label"><b>Word:</b></label>
+            <input type="text" id="puzzle-word-game" placeholder="Enter your guess" class="puzzle-word-guess-input" required>
+            <input type="submit" class="puzzle-submit-word" value="Submit">
+        </form>
+    </div>
+</section>
+
+
+
+
+
+<!--   *****************************************************************    -->
+<!--                        Puzzle Guessing section End                     -->
+<!--   *****************************************************************    -->
+
+<!--   *****************************************************************    -->
+<!--                        Head & Toss Guessing section Start.             -->
+<!--   *****************************************************************    -->
+
+<section class="head-or-tails-game-section">
+        <h2 class="head-or-tails-game-heading">Head or Tails Game</h2>
+        <div class="head-or-tails-game-content">
+            <div class="result">
+                <p id="outcome">Make your choice!</p>
+            </div>
+            <button class="btn" onclick="tossCoin('heads')">Heads</button>
+            <button class="btn" onclick="tossCoin('tails')">Tails</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+
+<!--   *****************************************************************    -->
+<!--                        Head & Toss Guessing section End                -->
+<!--   *****************************************************************    -->
 
 
 
@@ -1046,11 +1117,26 @@
 <!--   *****************************************************************    -->
 <!--                      Footer section End                                -->
 <!--   *****************************************************************    -->
-  
+ 
 </section>
+
 <script>
   var currentYear = new Date().getFullYear();
   document.getElementById('current-year').textContent = currentYear;
+  
+  
+function tossCoin(choice) {
+    const result = Math.random() < 0.5 ? 'heads' : 'tails';
+    const outcomeElement = document.getElementById('outcome');
+    
+    if (choice === result) {
+        outcomeElement.textContent = `You guessed ${choice} and it was ${result}! You win!`;
+    } else {
+        outcomeElement.textContent = `You guessed ${choice} but it was ${result}. Try again!`;
+    }
+}
 </script>
+
+
 </body>
 </html>
